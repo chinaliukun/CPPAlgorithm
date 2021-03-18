@@ -1,6 +1,6 @@
 #include <iostream>
-#include "SeqList.h"
-#include "LinkList.h"
+#include "DataStructure/SeqList.h"
+#include "DataStructure/LinkList.h"
 
 void seqListTest () {
     // œﬂ–‘±Ì≤‚ ‘
