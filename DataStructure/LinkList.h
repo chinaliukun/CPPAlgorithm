@@ -1,5 +1,5 @@
 //
-// Created by Fiber-Doctor-2020 on 2021/1/14.
+// Created by Kun on 2021/1/14.
 //
 
 #ifndef CPPALGORITHM_LINKLIST_H

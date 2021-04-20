@@ -1,13 +1,11 @@
 //
-// Created by Fiber-Doctor-2020 on 2021/1/14.
+// Created by Kun on 2021/1/14.
 //
 // C++ 的模板函数定义和声明需要放到一起！
 #ifndef CPPALGORITHM_SEQLIST_H
 #define CPPALGORITHM_SEQLIST_H
 #include "iostream"
 using namespace std;
-
-const int MaxSize = 100;
 
 template <typename DataType> class SeqList {
 public:
@@ -22,6 +20,7 @@ public:
     void printList();
 
 private:
+    const static int MaxSize = 1000;
     DataType data[MaxSize];
     int length = 0;
 };

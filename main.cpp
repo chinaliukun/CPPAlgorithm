@@ -1,6 +1,7 @@
 #include <iostream>
 #include "DataStructure/SeqList.h"
 #include "DataStructure/LinkList.h"
+#include "DataStructure/StaList.h"
 
 void seqListTest () {
     // 线性表测试
@@ -26,25 +27,14 @@ void seqListTest () {
     cout << "5所在的位置是：" << i << endl;
 }
 
-void linkListTest () {
+
+void staListTest(){
+    cout << "正在进行 StaList 测试..." << endl;
     int r[5] = {1,2,3,4,5}, i ,x;
-    LinkList<int> L{ r, 5 };
+    StaList<int> L{ r, 5 };
     L.printList();
-    try {
-        L.insert(6, 5);
-        L.printList();
-    } catch (char *str) {
-        cout << str << endl;
-    }
-    L.del(3);
-    L.printList();
-    cout << "当前长度为：" << L.len() << endl;
-    cout << "第5个元素的值为：" << L.get(5) << endl;
-    cout << "元素5所在的位置为：" << L.locate(5) << endl;
 }
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    linkListTest();
     return 0;
 }
