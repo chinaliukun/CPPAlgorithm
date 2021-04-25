@@ -1,5 +1,6 @@
 //
-// Created by Fiber-Doctor-2020 on 2021/4/20.
+// Created by Kun on 2021/4/20.
+// 单链表 Single Link List 用例
 //
 #include <iostream>
 #include "../DataStructure/LinkList.h"

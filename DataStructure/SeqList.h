@@ -1,5 +1,6 @@
 //
 // Created by Kun on 2021/1/14.
+// 顺序表 Sequence List
 //
 // C++ 的模板函数定义和声明需要放到一起！
 #ifndef CPPALGORITHM_SEQLIST_H

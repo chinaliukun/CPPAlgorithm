@@ -1,5 +1,6 @@
 //
-// Created by Fiber-Doctor-2020 on 2021/4/25.
+// Created by Kun on 2021/4/25.
+// 顺序栈 Sequence Stack 用例
 //
 
 #include <iostream>

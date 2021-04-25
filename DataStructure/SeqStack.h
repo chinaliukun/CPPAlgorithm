@@ -1,5 +1,6 @@
 //
-// Created by Fiber-Doctor-2020 on 2021/4/20.
+// Created by Kun on 2021/4/20.
+// 顺序栈 Sequence Stack
 //
 
 #ifndef CPPALGORITHM_SEQSTACK_H
