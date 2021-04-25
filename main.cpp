@@ -4,32 +4,32 @@
 #include "DataStructure/StaList.h"
 
 void seqListTest () {
-    // ÏßĞÔ±í²âÊÔ
+    // çº¿æ€§è¡¨æµ‹è¯•
     int r[5] = {1,2,3,4,5}, i, x;
     SeqList<int> L{r, 5};
-    // ´òÓ¡²âÊÔ
+    // æ‰“å°æµ‹è¯•
     L.printList();
-    // ²åÈë²âÊÔ
+    // æ’å…¥æµ‹è¯•
     try {
         L.insert(6,5);
         L.printList();
     } catch (char *str) {
         cout << str << endl;
     }
-    // É¾³ı²âÊÔ
+    // åˆ é™¤æµ‹è¯•
     L.del(3);
     L.printList();
-    // °´Î»²éÕÒ
+    // æŒ‰ä½æŸ¥æ‰¾
     x = L.get(3);
-    cout << "µÚÈı¸öÎ»ÖÃµÄÖµÎª£º" << x << endl;
-    // °´Öµ²éÕÒ
+    cout << "ç¬¬ä¸‰ä¸ªä½ç½®çš„å€¼ä¸ºï¼š" << x << endl;
+    // æŒ‰å€¼æŸ¥æ‰¾
     i = L.locate(5);
-    cout << "5ËùÔÚµÄÎ»ÖÃÊÇ£º" << i << endl;
+    cout << "5æ‰€åœ¨çš„ä½ç½®æ˜¯ï¼š" << i << endl;
 }
 
 
 void staListTest(){
-    cout << "ÕıÔÚ½øĞĞ StaList ²âÊÔ..." << endl;
+    cout << "æ­£åœ¨è¿›è¡Œ StaList æµ‹è¯•..." << endl;
     int r[5] = {1,2,3,4,5}, i ,x;
     StaList<int> L{ r, 5 };
     L.printList();

@@ -6,7 +6,7 @@
 
 using namespace std;
 void linkListTest () {
-    cout << "ÕýÔÚ½øÐÐ LinkList ²âÊÔ..." << endl;
+    cout << "æ­£åœ¨è¿›è¡Œ LinkList æµ‹è¯•..." << endl;
     int r[5] = {1,2,3,4,5}, i ,x;
     LinkList<int> L{ r, 5 };
     L.printList();
@@ -18,9 +18,9 @@ void linkListTest () {
     }
     L.del(3);
     L.printList();
-    cout << "µ±Ç°³¤¶ÈÎª£º" << L.len() << endl;
-    cout << "µÚ5¸öÔªËØµÄÖµÎª£º" << L.get(5) << endl;
-    cout << "ÔªËØ5ËùÔÚµÄÎ»ÖÃÎª£º" << L.locate(5) << endl;
+    cout << "å½“å‰é•¿åº¦ä¸ºï¼š" << L.len() << endl;
+    cout << "ç¬¬5ä¸ªå…ƒç´ çš„å€¼ä¸ºï¼š" << L.get(5) << endl;
+    cout << "å…ƒç´ 5æ‰€åœ¨çš„ä½ç½®ä¸ºï¼š" << L.locate(5) << endl;
 }
 int main(){
     linkListTest();
